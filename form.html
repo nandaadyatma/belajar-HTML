@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form</title>
+</head>
+<body>
+
+<h2>Judul Form</h2>
+<img src="../logo.png" width="20%">
+
+<form>
+	<label for="username">username :</label> 
+	<input type="text" name="username" id="username">
+			<br>
+			<br>
+	<label for="password"> password :</label>
+	<input type="password" name="password" id="password">
+			<br>
+			<br>
+	<input type="radio" id="pria" name="jeniskelamin"><label for="pria">pria</label>
+	<input type="radio" id="wanita" name="jeniskelamin"><label for="wanita">wanita</label> 
+	<!-- pake name untuk memmbuat grup pada checklist biar ngisinya cuma bisa salah satu, antara pria atau wanita -->
+			<br>
+			<br>
+	<input type="checkbox" id="menyanyi"><label for="menyanyi">menyanyi</label>
+	<input type="checkbox" id="membaca"><label for="membaca">membaca</label>
+	<input type="checkbox" id="menggambar"><label for="menggambar">menggambar</label>
+	<input type="checkbox" id="ngoding"><label for="ngoding">ngoding</label>
+			<br>
+			<br>
+	<textarea></textarea>
+			<br>
+			<br>
+	<label for="alamat">Alamat :</label>
+	<select id="alamat">
+		<option>Gianyar</option>
+		<option>Denpasar</option>
+		<option>Badung</option>
+	</select>
+	<button type="submit">kirim</button>
+	<!-- menggunakan input untuk button tidak disarankan <input type="submit" value="kirim">  -->
+</form>
+
+<!-- input >>  input type="text" >> selain text bisa password, radio, checkbox, submit, reset, dan button-->
+<!-- textarea -->
+<!-- select -->
+<!-- button -->
+<!-- label-->
+</body>
+</html>
